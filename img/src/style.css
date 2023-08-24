@@ -1,0 +1,208 @@
+
+
+
+header {
+    background: rgba(0, 26, 129, 0.7);
+    width: 100%;
+    position: static;
+    z-index: 100;
+  }
+  
+  
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #000000;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #eca023;
+  }
+  
+  h1{
+    color: rgb(223, 135, 3);
+    text-transform: uppercase;
+  }
+  h2{
+    color: rgb(223, 135, 3);
+  }
+  h3{
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+  
+  }
+  h4{
+    color: #ffffff;
+   font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+  }
+  #respuesta{
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  .faq .faq__pregunta{
+    color: rgb(235, 188, 21);
+  
+  }
+  .card image{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border: 1px;
+  
+  }
+  .boton-div{
+    width:200px;
+    height: 200px;
+    padding:15px;
+    border:5px solid grey;
+    margin:10px;
+  }
+  
+  .image{
+  background-color: aliceblue;
+  }
+  
+  
+  .menu .image{
+  background-color: rgb(246, 255, 127);
+  }
+  
+  .menu__image{
+    background-color: aquamarine; 
+  }
+  .fondo__image{
+    background-color: rgb(9, 80, 234); 
+  }
+  
+  .boton-div{
+    width:300px;
+    height: 200px;
+    padding:15px;
+    border:10px solid rgb(5, 20, 105);
+    margin:10px;
+  }
+  .boton-div__enviar{
+    font-size: 14px;
+    color: blue;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+body{
+    background-image: url(https://cdn2.wanderlust.co.uk/media/1021/golden-hands-bridge-da-nang-vietnam.jpg?anchor=center&mode=crop&width=1200&height=0&rnd=132265149100000000);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+  }
+  .camboya{
+    background-image: url(https://images.hola.com/imagenes/viajes/20181017131447/camboya-siete-razones/0-611-205/camboya-t.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+  }
+  .tailandia{
+    background-image: url(https://forbes.es/wp-content/uploads/2023/02/Tailandia-Tarifa_01.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+  }
+ 
+  .excursiones{
+    background-image: url(https://heymondo.es/blog/wp-content/uploads/2022/08/Excursiones-en-grupo-para-conocer-gente-viajando-solo-a-Tailandia.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+  }
+  .nosotros{
+    background-image: url(https://www.mundoasiatours.com/wp-content/uploads/2018/08/bagan-attraction-06.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+  }
+
+
+
+
+
+
+
+
+
+
+  #main-header{
+    background: #c5730075;
+    color:#000000;
+    height: 80px;
+    width: 100%; 
+      left: 0; 
+      top: 0; 
+      position: fixed; 
+  }
+  #main-header a{
+    color:rgb(245, 244, 244);
+  }
+  #main-header:hover {
+    background: #000007;
+  }
+  #logo-header {
+      float: left;
+      padding: 15px 0 0 20px;
+      text-decoration: none;
+  }
+  
+  #logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+    font-family: 'Black Ops One', cursive;
+  }
+  
+  #logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+  }
+  nav {
+      float: right;
+  }
+      nav ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          padding-right: 20px;
+      }
+      
+          nav ul li {
+              display: inline-block;
+              line-height: 60px;
+          }
+              
+              nav ul li a {
+                  padding: 10px 10px;
+                  text-decoration: none;
+              }
+              
+                  nav ul li a:hover {
+                      border-bottom: 4px solid #050505;
+                  }
+                  .contenedor-boton{
+                    display:inline-block;
+                    position:static;
+                }
